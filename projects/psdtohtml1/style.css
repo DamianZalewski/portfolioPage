@@ -1,0 +1,739 @@
+
+html,
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-size: 16px;
+        width: 100vw;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .headerTopBar {
+
+        height: 5px;
+        background-color: #fa6900;
+    }
+    .headerSection {
+        background-color: #69d2e7;
+        min-height: 250px;
+    }
+    .pentagon {
+        width: 40px;
+        height: 25px;
+        background: #fa6900;
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    .pentagon:after {
+        content: "";
+        position: absolute;
+        bottom: -25px;
+        left: 0;
+        width: 0;
+        height: 0;
+        top: 25px;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 10px solid #fa6900;
+    }
+    .headerSection .cross {
+        position: relative;
+        top: 7px;
+        left: 17px;
+    }
+
+    .headerSection .crossTop {
+
+        width: 6px;
+        height: 20px;
+        background-color: white;
+    }
+
+    .headerSection .crossLeft {
+        position: relative;
+        z-index: 1;
+        left: -7px;
+        top: -14px;
+        width: 20px;
+        height: 5px;
+        background-color: white;
+    }
+
+    .headerSection .companyName {
+        font-size: 12px;
+        font-weight: bold;
+        position: relative;
+        left: 65px;
+        top: -5px;
+
+    }
+
+    .headerSection .tagLine {
+        font-size: 10px;
+
+        position: relative;
+        left: 65px;
+        top: -5px;
+
+    }
+
+    .headerSection .menuIcon {
+        color: #ffffff;
+        border-radius: 50%;
+        border: 2px solid white;
+        padding: 5px;
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        z-index: 4;
+    }
+
+    .headerSection .headerText {
+        color: #ffffff;
+        font-weight: 900;
+        font-size: 24px;
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+
+    /* about us*/
+    .aboutUs {
+        background-color: #f1f1f1;
+        height: 650px;
+    }
+
+    .aboutUs .aboutUsTop {
+        color: #000000;
+        background-color: #ffffff;
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: -50px;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: -35px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+    }
+
+    .aboutUs .aboutUsTop header {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 5px;
+
+
+    }
+
+    .aboutUs .aboutUsBar {
+        width: 40vw;
+        height: 1px;
+        background-color: rgb(212, 212, 212);
+        margin-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .aboutUsImages {
+        display: block;
+        border-radius: 10px;
+        width: 100px;
+        margin: auto;
+
+
+    }
+
+
+    .imagesDesc {
+        margin-top: 15px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .browser {
+        background-color: #fa6900;
+        height: 250px;
+        margin-bottom: 0px;
+    }
+
+    .browser .description {
+
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        color: white;
+        padding-top: 10px;
+    }
+
+    .browser .formContainer {
+        width: 70vw;
+
+        position: relative;
+        text-align: center;
+        margin: auto;
+
+
+
+    }
+
+    .browser .formContainer .form {
+        width: 50vw;
+        height: 150px;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+        display: inline-block;
+    }
+
+    .browser .formContainer .form .topBar {
+        background-color: #535a6c;
+        height: 20px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding-left: 5px;
+    }
+
+    .browser .formContainer .form .topBar .menuCirle {
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        float: left;
+        margin-top: 8px;
+        margin-left: 3px;
+        background-color: #ffffff;
+    }
+
+    .browser .formContainer .form .topBar .searchBar {
+        height: 10px;
+        background-color: #ffffff;
+        width: 80%;
+        float: right;
+        border-radius: 4px;
+        margin-top: 5px;
+        margin-right: 3px;
+    }
+
+    .browser .formContainer .firstForm {
+
+
+        margin-top: 35px;
+        height: 110px;
+        opacity: 0.7;
+        position: absolute;
+        left: -20vw;
+
+    }
+
+    .browser .formContainer .thirdForm {
+
+
+        margin-top: 35px;
+        height: 110px;
+        opacity: 0.7;
+        position: absolute;
+        left: 40vw;
+    }
+
+    .browser .formContainer .secondForm {
+
+
+        z-index: 1;
+        position: absolute;
+        left: 11vw;
+
+
+    }
+
+
+
+
+    .testimonials {
+
+
+        height: 250px;
+        background-color: #f1f1f1;
+        text-align: center;
+
+
+
+    }
+
+    .testimonials figure {
+        float: none;
+        padding: 0;
+        margin: 0;
+
+        padding-top: 15px;
+
+    }
+
+    .testimonials .avatar {
+        color: #69d2e7;
+        font-size: 76px;
+
+
+    }
+
+    .testimonials .name {
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 22px;
+    }
+
+    .testimonials header {
+        margin-bottom: 10px;
+    }
+
+    .testimonials article {
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .testimonials .circle {
+        background-color: #ffffff;
+        border: 1px solid gray;
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        border-radius: 50%;
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+
+    .testimonials .active {
+        background-color: #69d2e7;
+        border-color: #69d2e7;
+
+    }
+
+
+    .testimonials .circle:last-child {
+        margin-right: 0;
+    }
+
+    .testimonials .circle:hover {
+        cursor: pointer;
+    }
+
+    .testimonials .person {
+
+
+        display: none;
+
+    }
+
+    .testimonials .person:nth-of-type(1) {
+        display: block;
+
+    }
+
+    .fa-close {
+        visibility: hidden;
+    }
+
+
+    .bullet {
+        height: 250px;
+        background-color: #fa6900;
+        padding-left: 10px;
+        padding-top: 10px;
+        color: white;
+        position: relative;
+    }
+
+    .bullet h2 {
+        margin-bottom: 0px;
+    }
+
+    .bullet header {
+        width: 60vw;
+    }
+
+    .bullet article {
+        width: 60vw;
+        font-size:14px;
+    }
+
+    .bullet .triangle {
+        width: 0;
+        height: 0;
+        border-top: 150px solid transparent;
+        border-right: 150px solid white;
+        border-bottom: 150px solid transparent;
+        position: absolute;
+        left: 75vw;
+        top: -25px;
+
+    }
+
+    .footer {
+        height: 250px;
+        ;
+        background-color: #f1f1f1;
+        margin-right: 0px;
+    }
+
+    .footer .leftBox .cross {
+        position: relative;
+        top: 7px;
+        left: 17px;
+
+    }
+
+    .footer .leftBox .crossTop {
+
+        width: 6px;
+        height: 20px;
+        background-color: white;
+    }
+
+    .footer .leftBox .crossLeft {
+        position: relative;
+        z-index: 1;
+        left: -7px;
+        top: -14px;
+        width: 20px;
+        height: 5px;
+        background-color: white;
+    }
+
+    .footer .leftBox .companyName {
+        font-size: 14px;
+        font-weight: bold;
+        position: relative;
+        left: 65px;
+        top: -5px;
+
+    }
+
+    .footer .leftBox .tagLine {
+        font-size: 12px;
+
+        position: relative;
+        left: 65px;
+        top: -5px;
+
+    }
+
+    .footer .leftBox {
+        width: 40vw;
+        display: inline-block;
+
+
+    }
+
+    .footer .leftBox .socials {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .footer .leftBox article {
+        margin-left: 15px;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    .footer .leftBox .box {
+        border: 1px solid black;
+        width: 15px;
+        height: 15px;
+        padding: 3px;
+
+        text-align: center;
+        display: inline-block;
+    }
+
+    .footer .leftBox .box:hover:nth-child(1) {
+        color: #3b5998;
+        border-color: #3b5998;
+    }
+
+    .footer .leftBox .box:hover:nth-child(2) {
+        color: #0084b4;
+        border-color: #0084b4;
+    }
+
+    .footer .leftBox .box:hover:nth-child(3) {
+        color: #d62d20;
+        border-color: #d62d20;
+    }
+
+    .footer .leftBox .box:hover:nth-child(4) {
+        color: #ff0000;
+        border-color: #ff0000;
+    }
+
+    .footer .rightBox {
+
+        float: right;
+        width: 60%;
+        height: 250px;
+        ;
+        box-sizing: border-box;
+
+
+
+
+    }
+
+    .footer .rightBox .post {
+        padding-left: 15px;
+
+
+    }
+
+    .footer .rightBox .post header {
+        font-size: 12px;
+        font-weight: 700;
+        margin-top: 5px;
+    }
+
+    .footer .rightBox .post article {
+        margin-top: 5px;
+        font-size: 9px;
+        padding-right:5px;
+    }
+
+    .footer .rightBox h3 {
+        margin-left: 15px;
+        margin-top: 60px;
+        margin-bottom: 15px;
+    }
+
+
+
+    .footerBar {
+
+
+
+        background-color: #69d2e7;
+        font-size: 10px;
+        color: white;
+        padding: 10px;
+
+    }
+
+
+
+}
+
+.footerBar a {
+    color: white;
+    text-decoration: none;
+}
+
+.footerBar a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.footerBar .terms {
+    float: left;
+}
+
+.footerBar .psd {
+    float: right;
+}
+
+.menu {
+    background-color: #fa6900;
+    position: absolute;
+    z-index: 3;
+    width: 100vw;
+    text-align: center;
+    padding-top: 25px;
+
+
+
+}
+
+.menu a {
+    display: block;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+@media all and (min-width: 480px) {
+    .footer
+    {
+        height: 300px;
+    }
+    .testimonials article
+    {
+        font-size:14px;
+    }
+    
+    .footer .rightBox .post header
+    {
+        font-size:15px;
+    }
+     .footer .rightBox .post article
+    {
+        font-size:12px;
+    }
+    .footerBar
+    {
+        font-size:12px;
+        
+    }
+    .browser
+    {
+        height:300px;
+    }
+
+    .browser .formContainer .firstForm
+    {
+        height:150px;
+    }
+    .browser .formContainer .thirdForm
+    {
+        height:150px;
+    }
+    .browser .formContainer .secondForm
+    {
+        height:180px;
+    }
+    .bullet .triangle
+    {
+        left:85vw;
+    }
+
+ 
+}
+@media all and (min-width: 736px) {
+    .pentagon
+    {
+        width:45px;
+        height:30px;
+        
+    }
+    .pentagon::after
+    {
+        top:30px;
+       border-left-width: 23px;
+       border-right-width: 23px;
+    }
+    .headerSection .cross
+    {
+        left:20px;
+        top:8px;
+    }
+    .footer .leftBox .cross
+    {
+ 
+        left:20px;
+        top:8px;
+    
+    }
+    .headerSection .companyName
+    {
+        font-size:16px;
+        left:70px;
+        top : -10px;
+    }
+    .headerSection .tagLine
+    {
+        font-size:13px;
+        left:70px;
+        top : -10px;
+    }
+    
+    .footer .leftBox .companyName
+    {
+       font-size:16px;
+        left:70px;
+        top : -10px; 
+    }
+    .footer .leftBox .tagLine
+    {
+       font-size:13px;
+        left:70px;
+        top : -10px; 
+    }
+    .footer .leftBox
+    {
+        width:50vw;
+    }
+    .footer .rightBox
+    {
+        width:50vw;
+    }
+    .bullet .triangle
+    {
+        left:90vw;
+    }
+}
+
+@media all and (max-width: 1280px) { 
+    body
+    {
+        font-size:20px;
+    }
+.footer .rightBox
+    {
+        width:45vw;
+    }
+    .menu a
+    {
+        font-size:22px;
+    }
+    .footer .leftBox .box 
+    {
+        font-size:22px;
+        padding-bottom:12px;
+        padding-right:6px;
+ 
+    }
+    .testimonials .name
+    {
+        font-size:26px;
+    }
+    .testimonials article
+    {
+        font-size:18px;
+    }
+    .bullet article
+    {
+        font-size:20px;
+    }
+    .footer .leftBox article
+    {
+        font-size:20px;
+    }
+    .footer .rightBox .post header
+    {
+        font-size:20px;
+    }
+    .footer .rightBox .post article
+    {
+        font-size:18px;
+    }
+    .footer
+    {
+        height:340px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

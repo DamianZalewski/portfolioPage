@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #1d1c1f;
+    overflow-x: hidden;
+    color: #ffffff;
+    display:none;
+}
+
+nav {
+    background-color: rgba(7, 77, 114, 0.9);
+    font-size: 1.5rem;
+    text-align: right;
+    position: fixed;
+    width: 100vw;
+    z-index: 99;
+}
+
+nav header,
+nav ul {
+    display: inline-block;
+
+}
+
+nav header {
+    display: inline-block;
+    float:left;
+    margin-top: 26px;
+    margin-left: 15px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 35px;
+}
+
+.home {
+    height: 100vh;
+
+    background-image: url(img/backgroundHouses.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home header {
+    font-size: 68px;
+    text-align: center;
+    padding-top: 40vh;
+}
+
+.aboutMe {
+    min-height: 600px;
+    background-color: rgb(7, 77, 114);
+    font-size: 32px;
+    text-align: center;
+
+}
+
+.aboutMe img {
+    width: 350px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 125px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+
+}
+
+.description {
+    font-size: 26px;
+    width: 60vw;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin-top: 60px;
+    padding-left: 150px;
+}
+
+.description header {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.description article {
+    text-align: justify;
+    margin-right: 50px;
+}
+
+.mySkills {
+    min-height: 450px;
+    text-align: center;
+}
+
+.mySkills header {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.mySkills img {
+    width: 120px;
+    height: 120px;
+}
+
+.mySkills figure {
+
+    margin-top: 80px;
+    display: inline-block;
+}
+
+.mySkills figcaption {
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.projects {
+    height: 600px;
+    background-color: rgb(7, 77, 114);
+    text-align: center;
+}
+
+.projects header {
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.projects .wrapper {
+    max-width: 600px;
+    height: 400px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    background-color: rgb(0, 35, 54);
+    border-radius: 5px;
+
+}
+
+#back {
+
+    z-index: 2;
+    font-size: 98px;
+    position: absolute;
+    left: 30px;
+    top: 135px;
+    color: #f86e19;
+    cursor: pointer;
+    text-align: left;
+    width: 50px;
+    height: 120px;
+}
+
+#forward {
+    text-align: right;
+    z-index: 2;
+    font-size: 98px;
+    position: absolute;
+    width: 50px;
+    height: 120px;
+    right: 30px;
+    top: 135px;
+    color: #f86e19;
+    cursor: pointer;
+}
+
+#back::selection,
+#forward::selection {
+    color: #f86e19;
+}
+
+.projects .wrapper div {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    transition: all 1.5s ease-in-out;
+}
+
+#project1 {
+    left: 0px;
+    background-image: url('img/project1.PNG');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 400px;
+
+}
+
+#project2 {
+    left: 600px;
+    background-image: url('img/project2.PNG');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 400px;
+}
+
+#project3 {
+    left: 1200px;
+    background-image: url('img/project3.PNG');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 400px;
+}
+
+#project4 {
+    left: 1800px;
+    background-image: url('img/project4.PNG');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 400px;
+}
+
+.projectDescription {
+    box-sizing: border-box;
+    padding-top: 15px;
+    max-height: 50px;
+    bottom: 0px;
+    background-color: rgba(248, 110, 25, 0.9);
+
+
+}
+
+#projectDesc1 {
+    left: 0px;
+}
+
+#projectDesc2 {
+    left: 600px;
+}
+
+#projectDesc3 {
+    left: 1200px;
+}
+
+#projectDesc4 {
+    left: 1800px;
+}
+
+.contact {
+    min-height: 300px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contact header {
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.contact article {
+    padding-top: 30px;
+    font-size: 32px;
+}
+
+footer {
+    height: 20px;
+    font-size: 22px;
+    text-align: center;
+    background-color: #0d0d0d;
+    padding: 10px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .home header {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    nav {
+        font-size:1rem;
+        vertical-align: top;
+    }
+    
+    nav header {
+        margin-top:1rem;
+    }
+    
+    .aboutMe img {
+        width:250px;
+        height:250px;
+        margin-left:auto;
+        margin-right:auto;
+        
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    nav header {
+        text-align: center;
+        width:100vw;
+        margin-bottom:14px;
+    }
+    
+    nav ul {
+        display:none;
+    }
+}

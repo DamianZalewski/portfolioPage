@@ -1,0 +1,1273 @@
+body {
+
+    padding: 0;
+    margin-bottom: 50px;
+    background-color: #edeff3;
+    font-family: 'Lato', sans-serif;
+    display: none;
+}
+
+.wrapper {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+header .logoName,
+header .logoSubname {
+    margin-top: 30px;
+    width: 100%;
+}
+
+header .logoSubname {
+    margin: 0px;
+}
+
+header .logo {
+    width: 90px;
+    float: right;
+    position: absolute;
+    right: 60px;
+    top: 30px;
+
+}
+
+header .namesContainer {
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+}
+
+.wrapper .visits {
+    width: 180px;
+    background-color: #ffffff;
+    padding-top: 20px;
+
+
+
+}
+
+.wrapper .visits .statCircle {
+    width: 140px;
+    height: 140px;
+    background-color: #189382;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 15px solid #1fbba6;
+    border-radius: 50%;
+    border-left-color: #ffffff;
+    transform: rotate(45deg);
+
+
+}
+
+.visits .statCircle .textCircle {
+    transform: rotate(-45deg);
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 15px;
+
+
+}
+
+.visits .statCircle .descCircle {
+    transform: rotate(-45deg);
+    color: #ffffff;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.visits .visitDesc {
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: center;
+    color: #b3b3b3;
+}
+
+.visits .visitDesc button {
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: #f7a22f;
+    border-color: #e6911e;
+}
+
+
+.wrapper .myNetworks {
+    vertical-align: top;
+    width: 500px;
+
+    margin-left: 30px;
+    background-color: #ffffff;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #b3b3b3;
+
+}
+
+.wrapper .myNetworks figure {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.myNetworks figure .facebook,
+.myNetworks figure .twitter,
+.myNetworks figure .dribbble {
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.myNetworks figure .facebook {
+    background-color: #4d6299;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.myNetworks figure .facebook:hover {
+    background-color: #ffffff;
+    color: #4d6299;
+    border: 10px solid #4d6299;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+
+}
+
+.myNetworks figure .twitter {
+    background-color: #5bc8ec;
+}
+
+.myNetworks figure .twitter:hover {
+    padding: 10px;
+    border: 10px solid #5bc8ec;
+    background-color: #ffffff;
+    color: #5bc8ec;
+    cursor: pointer;
+}
+
+.myNetworks figure .dribbble {
+    background-color: #ee5a92;
+}
+
+.myNetworks figure .dribbble:hover {
+    padding: 10px;
+    border: 10px solid #ee5a92;
+    background-color: #ffffff;
+    color: #ee5a92;
+    cursor: pointer;
+}
+
+.wrapper .adminLogin {
+    width: 350px;
+    margin-left: 30px;
+    background-color: #fff;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+.wrapper .adminLogin .cog {
+    color: #969696;
+    text-align: right;
+    font-size: 24px;
+}
+
+.cogIcon:hover {
+    cursor: pointer;
+    animation: cogRotation 3s infinite linear;
+}
+
+.wrapper .adminLogin figure {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.adminLogin figure figcaption {
+    color: #b3b3b3;
+    margin-top: 15px;
+}
+
+.adminLogin figure img {
+    width: 100px;
+    height: 100px;
+}
+
+.wrapper .adminLogin form {
+    text-align: center;
+}
+
+.adminLogin form input {
+    width: 220px;
+    height: 34px;
+    box-sizing: border-box;
+    padding: 5px;
+    color: #b3b3b3;
+
+}
+
+.adminLogin form button {
+    width: 35px;
+    height: 35px;
+    margin-left: -5px;
+    background-color: #f9ab2e;
+    color: white;
+    border-color: #f9ab2e;
+    transform: translateY(2px);
+}
+
+.adminLogin form button .arrow {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 20px;
+
+    box-sizing: border-box;
+}
+
+.mySkills {
+    width: 180px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #919191;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mySkills article {
+    color: #c7c7c7;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.mySkills .photoshopBar,
+.mySkills .illustratorBar,
+.mySkills .wordpressBar,
+.mySkills .joomlaBar {
+    height: 10px;
+    background-color: #ebebeb;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.mySkills .photoshopBar::after,
+.mySkills .illustratorBar::after,
+.mySkills .wordpressBar::after,
+.mySkills .joomlaBar::after {
+    content: '';
+    display: block;
+    width: 70%;
+    background-color: #1fbba6;
+    height: 100%;
+}
+
+.mySkills .illustratorBar::after {
+    width: 30%;
+}
+
+.mySkills .wordpressBar::after {
+    width: 60%;
+}
+
+.mySkills .joomlaBar::after {
+    width: 90%;
+}
+
+.mySkills .downloadButton {
+    background-color: #ffffff;
+    border-color: #c7c7c7;
+    font-size: 11px;
+    color: #919191;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mySkills .downloadButton .downloadIcon {
+    color: #1fbba6;
+}
+
+.profileAlbum {
+    width: 500px;
+    background-color: #ffffff;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 26px;
+    text-align: center;
+    box-sizing: border-box;
+
+
+}
+
+.profileAlbum .viewProfile {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
+    color: #ffffff;
+    background-color: #1fbba6;
+    position: relative;
+}
+
+.profileAlbum .viewProfile:hover,
+.profileAlbum .viewProfile:hover .orContainer {
+    background-color: #067b6b;
+    cursor: pointer;
+}
+
+.profileAlbum .viewProfile .profile,
+.profileAlbum .viewAlbum .album {
+    font-size: 72px;
+    margin-bottom: 15px;
+}
+
+.profileAlbum .viewAlbum {
+    width: 50%;
+    display: inline-block;
+    color: #919191;
+    vertical-align: top;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.profileAlbum .viewAlbum:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+.profileAlbum .viewProfile .orContainer {
+    position: absolute;
+    width: 30px;
+    background-color: #1fbba6;
+    height: 30px;
+    padding: 12px;
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    font-size: 22px;
+    left: 86%;
+    bottom: 30%;
+}
+
+.wrapper .register {
+    width: 350px;
+    margin-left: 30px;
+    background-color: #fff;
+    padding: 30px 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    box-sizing: border-box;
+    color: #cbcbcb;
+}
+
+.register form .informations {
+    margin-top: 20px;
+    width: 280px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+
+
+.register form .genderMale {
+    font-size: 14px;
+    background-color: #26b9a5;
+    width: 60px;
+    border-radius: 15px;
+    padding-left: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 20px;
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+}
+
+.register form .genderMale::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 17px;
+    height: 17px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    right: 2px;
+    top: 10%;
+    transition: background-color 1s linear;
+}
+
+.register form .genderFemale {
+    font-size: 14px;
+    background-color: #db3030;
+    width: 50px;
+    border-radius: 15px;
+    padding-left: 22px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 20px;
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+    transition: background-color 1s linear;
+}
+
+.register form .genderFemale::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 17px;
+    height: 17px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    left: 2px;
+    top: 10%;
+}
+
+.register form .genderFemale:hover,
+.register form .genderMale {
+    cursor: pointer;
+}
+
+.conditions {
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 15px;
+
+}
+
+.register form .sendButton {
+    background-color: #f7a22f;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profiles {
+    width: 500px;
+    background-color: #ffffff;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.profiles .profilePic {
+    width: 100px;
+    height: 100px;
+}
+
+.profiles .loveBox,
+.profiles .friendsBox,
+.profiles .photosBox {
+    width: 120px;
+    text-align: center;
+    padding: 15px 0px;
+    box-sizing: border-box;
+    display: inline-block;
+    color: #ffffff;
+    background-color: #f75556;
+    font-size: 18px;
+    margin-left: -3px;
+}
+
+.profiles .loveBox {
+    margin-left: 0px;
+}
+
+.profiles .loveBox:hover {
+    background-color: #db2d2e;
+}
+
+.profiles .friendsBox {
+    background-color: #e69941;
+}
+
+.profiles .friendsBox:hover {
+    background-color: #fd9216;
+}
+
+.profiles .photosBox {
+    background-color: #1fbba6;
+}
+
+.profiles .photosBox:hover {
+    background-color: #07a791;
+}
+
+.profiles .settingsBox {
+    display: inline-block;
+    color: #919191;
+    padding-left: 30px;
+}
+
+.profiles .settingsBox:hover {
+    color: #6c6c6c;
+}
+
+.profiles .profileNames {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 15px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    color: #919191;
+
+}
+
+.profiles .profile {
+
+    padding-left: 35px;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.profileNames .proffesion {
+    font-size: 22px;
+}
+
+.myChat {
+    width: 180px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #919191;
+    font-size: 18px;
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+
+.myChat .cog {
+    float: right;
+    font-size: 16px;
+    margin-top: 3px
+}
+
+.myChat .chatOptions {
+    font-size: 14px;
+    color: rgb(193, 193, 193);
+    margin-bottom: 15px;
+
+}
+
+.myChat .chatOptions .triangle {
+    width: 0px;
+    height: 0px;
+    display: inline-block;
+    border-top: 6px solid rgb(193, 193, 193);
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    padding-bottom: 1px;
+    margin: 0px;
+}
+
+.myChat .member {
+    color: rgb(193, 193, 193);
+    border-bottom: 1px solid rgb(193, 193, 193);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.member {
+    position: relative;
+}
+
+.member .avatar {
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    background-color: #37cde7;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+.member .offline {
+    background-color: #cacaca;
+
+}
+
+.member .name {
+    display: inline-block;
+    position: absolute;
+    left: 44px;
+    top: 8px;
+}
+
+.member .status {
+    width: 10px;
+    height: 10px;
+    background-color: #afd930;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    left: 44px;
+    top: 28px;
+}
+
+.member .status::before {
+    content: "Available";
+    position: absolute;
+    font-size: 12px;
+    left: 14px;
+    top: -3px;
+}
+
+.member .busy {
+    width: 10px;
+    height: 10px;
+    background-color: #f2a858;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    left: 44px;
+    top: 28px;
+}
+
+.member .busy::before {
+    content: "Busy";
+    position: absolute;
+    font-size: 12px;
+    left: 14px;
+    top: -3px;
+}
+
+.member .busy::after {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 1px;
+    position: absolute;
+    left: 3px;
+    top: 4px;
+    background-color: #ffffff;
+}
+
+.member .notAvailable {
+    width: 10px;
+    height: 10px;
+    background-color: #cacaca;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    left: 44px;
+    top: 28px;
+}
+
+.member .notAvailable::before {
+    content: "NotAvailable";
+    position: absolute;
+    font-size: 12px;
+    left: 14px;
+    top: -3px;
+}
+
+.profileMail {
+    width: 500px;
+    background-color: #ffffff;
+    margin-left: 30px;
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    min-height: 400px;
+
+
+}
+
+.profileMail .profileNames {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 15px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    color: #ffffff;
+    text-align: left;
+
+}
+
+.profileMail .profilePic {
+    width: 92px;
+    height: 92px;
+    border: 8px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+
+}
+
+.profileMail .profile {
+    padding-left: 35px;
+    font-size: 28px;
+    margin-bottom: 10px;
+    background-image: url(img/profileBackground.png);
+    background-size: 100%;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+.profileMail .aboutMe,
+.profileMail .message,
+.profileMail .addFriend {
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+    color: #827e7d;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+}
+
+.profileMail .activeTitle {
+    border-bottom: 3px solid #14b9d6;
+}
+
+
+.profileMail .panelTitles {
+    margin-left: 5px;
+}
+
+.profileMail .aboutMe:hover,
+.profileMail .message:hover,
+.profileMail .addFriend:hover {
+    cursor: pointer;
+}
+
+.profileMail .Message-panel {
+    padding: 30px 30px;
+    padding-top: 15px;
+
+}
+
+.profileMail form input,
+.profileMail form textarea {
+    margin-top: 20px;
+    width: 370px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.submitForm {
+    color: #827e7d;
+}
+
+.submitForm input[type="checkbox"] {
+    text-align: left;
+    width: 20px;
+
+
+}
+
+.submitForm input[type="submit"] {
+    width: 70px;
+    margin-left: 165px;
+    background-color: #f7a22f;
+    color: #ffffff;
+}
+
+.profileMail .aboutMe-panel,
+.profileMail .message-panel,
+.profileMail .addFriend-panel {
+    display: none;
+}
+
+.profileMail .activePanel {
+    display: block;
+}
+
+.profileMail .aboutMe-panel {
+    color: #827e7d;
+    font-size: 28px;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+.addFriend-panel form input[type="submit"] {
+    background-color: #f7a22f;
+    color: #ffffff;
+}
+
+.map {
+    width: 350px;
+    margin-left: 30px;
+    background-color: #fff;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    box-sizing: border-box;
+    color: #cbcbcb;
+}
+
+#map {
+    height: 300px;
+    width: 100%;
+}
+
+.map header {
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #827e7d;
+}
+
+.map article {
+    margin-left: 30px;
+    color: #827e7d;
+    font-size: 16px;
+}
+
+
+/* The animation code */
+
+@keyframes cogRotation {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+
+
+@media only screen and (max-device-width : 480px) {
+/* Styles */
+     body{
+
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+    .wrapper
+    {
+       overflow-x:hidden;
+        width: 300px;
+    }
+    .logoContainer
+    {
+       text-align: center;
+        margin-bottom: 15px;
+    }
+    .wrapper {
+        display: block;
+    }
+    header .logo
+    {
+        position: static;
+        float:none;
+      
+    }
+    
+    .leftItems .visits,
+    .leftItems .mySkills,
+    .leftItems .myChat,
+    .middleItems .myNetworks,
+    .middleItems .profileAlbum,
+    .middleItems .profiles,
+    .middleItems .profileMail,
+    .rightItems .adminLogin,
+    .rightItems .register,
+    .rightItems .map
+    {
+        width:100%;
+    }
+    .visits .visitDesc button
+    {
+        width:80%;
+    }
+    .wrapper .myNetworks,
+    .profileAlbum,
+    .profiles,
+    .profileMail,
+    .wrapper .adminLogin,
+    .wrapper .register,
+    .map
+    {
+        margin-left:0px;
+        margin-top:30px;
+    }
+    .profileAlbum .viewProfile .orContainer{
+        left:115px;
+    }
+    .profiles .loveBox,
+    .profiles .friendsBox,
+    .profiles .photosBox
+    {
+        width:50%;
+         margin-left:0px;
+    }
+
+
+    .profiles .profile
+    {
+        text-align: center;
+        padding-left:0px;
+    }
+    .profiles .profileNames,
+    .profileMail .profile{
+        padding-left: 0px;
+    }
+.profileMail .profileNames
+    {
+        text-align: center;
+        padding-left: 0px;
+    }
+    .profileMail .profile{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .profileMail .panelTitles
+    {
+        font-size: 10px;
+    }
+    .profileMail .aboutMe-panel
+    {
+        font-size:18px;
+    }
+    .profileMail form input, .profileMail form textarea
+    {
+        width:80%;
+    }
+    .submitForm input[type="submit"]{
+        margin: auto;
+        margin-left: 15px;
+    }
+    .register form {
+        text-align: center;
+    }
+    .register form .informations{
+        width:90%;
+  
+    }
+    .register form .genderMale,
+    .register form .genderFemale
+    {
+        text-align: left;
+    }
+}
+@media only screen and (min-device-width : 480px) and (max-device-width : 715px) {
+         body{
+
+        max-width: 100vw;
+        overflow-x: hidden;
+             
+    }
+    .wrapper
+    {
+       overflow-x:hidden;
+        width: 420px;
+    }
+    .logoContainer
+    {
+       text-align: center;
+        margin-bottom: 15px;
+    }
+    .wrapper {
+        display: block;
+    }
+    header .logo
+    {
+        position: static;
+        float:none;
+      
+    }
+    
+    .leftItems .visits,
+    .leftItems .mySkills,
+    .leftItems .myChat,
+    .middleItems .myNetworks,
+    .middleItems .profileAlbum,
+    .middleItems .profiles,
+    .middleItems .profileMail,
+    .rightItems .adminLogin,
+    .rightItems .register,
+    .rightItems .map
+    {
+        width:100%;
+    }
+    .visits .visitDesc button
+    {
+        width:80%;
+    }
+    .wrapper .myNetworks,
+    .profileAlbum,
+    .profiles,
+    .profileMail,
+    .wrapper .adminLogin,
+    .wrapper .register,
+    .map
+    {
+        margin-left:0px;
+        margin-top:30px;
+    }
+    .profileAlbum .viewProfile .orContainer{
+        left:115px;
+    }
+    .profiles .loveBox,
+    .profiles .friendsBox,
+    .profiles .photosBox
+    {
+        width:50%;
+         margin-left:0px;
+    }
+
+
+    .profiles .profile
+    {
+        text-align: center;
+        padding-left:0px;
+    }
+    .profiles .settingsBox {
+    width:50%;
+        padding-left:0px;
+        text-align: center;
+    }
+    .profiles .profileNames,
+    .profileMail .profile{
+        padding-left: 0px;
+    }
+.profileMail .profileNames
+    {
+        text-align: center;
+        padding-left: 0px;
+    }
+    .profileMail .profile{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .profileMail .panelTitles
+    {
+        font-size: 10px;
+    }
+    .profileMail .aboutMe-panel
+    {
+        font-size:18px;
+    }
+    .profileMail form input, .profileMail form textarea
+    {
+        width:80%;
+    }
+    .submitForm input[type="submit"]{
+        margin: auto;
+        margin-left: 15px;
+    }
+    .register form {
+        text-align: center;
+    }
+    .register form .informations{
+        width:90%;
+  
+    }
+    .register form .genderMale,
+    .register form .genderFemale
+    {
+        text-align: left;
+    }
+    .wrapper .visits .statCircle{
+        transform: scale(1.2,1.2) rotate(45deg);
+        margin-top:20px;
+        margin-bottom:20px;
+        
+    }
+
+    .member .name,
+    .member .avatar,
+    .member .status{
+        transform: scale(1.2,1.2);
+    }
+    .member .name
+    {
+        margin-left: 20px;
+    }
+    .member .status,
+    .member .notAvailable,
+    .member .busy{
+        margin-left: 15px;
+    }
+    .myChat .member{
+        padding-bottom: 10px;
+    }
+    .myChat .cog{
+        font-size: 20px;
+    }
+    .profileAlbum .viewProfile .orContainer{
+        left:175px;
+    }
+    .profileMail .panelTitles{
+        font-size: 16px;
+    }
+
+}
+@media only screen and (min-device-width : 715px) and (max-device-width : 1200px) {
+   body{
+
+        max-width: 100vw;
+        overflow-x: hidden;
+             
+    }
+    .wrapper
+    {
+       overflow-x:hidden;
+        width: 620px;
+    }
+    .logoContainer
+    {
+       text-align: center;
+        margin-bottom: 15px;
+    }
+    .wrapper {
+        display: block;
+    }
+    header .logo
+    {
+        position: static;
+        float:none;
+      
+    }
+    
+    .leftItems .visits,
+    .leftItems .mySkills,
+    .leftItems .myChat,
+    .middleItems .myNetworks,
+    .middleItems .profileAlbum,
+    .middleItems .profiles,
+    .middleItems .profileMail,
+    .rightItems .adminLogin,
+    .rightItems .register,
+    .rightItems .map
+    {
+        width:100%;
+    }
+    .visits .visitDesc button
+    {
+        width:80%;
+    }
+    .wrapper .myNetworks,
+    .profileAlbum,
+    .profiles,
+    .profileMail,
+    .wrapper .adminLogin,
+    .wrapper .register,
+    .map
+    {
+        margin-left:0px;
+        margin-top:30px;
+    }
+    .profileAlbum .viewProfile .orContainer{
+        left:115px;
+    }
+    .profiles .loveBox,
+    .profiles .friendsBox,
+    .profiles .photosBox
+    {
+        width:50%;
+         margin-left:0px;
+    }
+
+
+    .profiles .profile
+    {
+        text-align: center;
+        padding-left:0px;
+    }
+    .profiles .settingsBox {
+    width:50%;
+        padding-left:0px;
+        text-align: center;
+    }
+    .profiles .profileNames,
+    .profileMail .profile{
+        padding-left: 0px;
+    }
+.profileMail .profileNames
+    {
+        text-align: center;
+        padding-left: 0px;
+    }
+    .profileMail .profile{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .profileMail .panelTitles
+    {
+        font-size: 10px;
+    }
+    .profileMail .aboutMe-panel
+    {
+        font-size:18px;
+    }
+    .profileMail form input, .profileMail form textarea
+    {
+        width:80%;
+    }
+    .submitForm input[type="submit"]{
+        margin: auto;
+        margin-left: 15px;
+    }
+    .register form {
+        text-align: center;
+    }
+    .register form .informations{
+        width:90%;
+  
+    }
+    .register form .genderMale,
+    .register form .genderFemale
+    {
+        text-align: left;
+    }
+    .wrapper .visits .statCircle{
+        transform: scale(1.2,1.2) rotate(45deg);
+        margin-top:20px;
+        margin-bottom:20px;
+        
+    }
+
+    .member .name,
+    .member .avatar,
+    .member .status{
+        transform: scale(1.2,1.2);
+    }
+    .member .name
+    {
+        margin-left: 20px;
+    }
+    .member .status,
+    .member .notAvailable,
+    .member .busy{
+        margin-left: 15px;
+    }
+    .myChat .member{
+        padding-bottom: 10px;
+    }
+    .myChat .cog{
+        font-size: 20px;
+    }
+    .profileAlbum .viewProfile .orContainer{
+        left:275px;
+    }
+    .profileMail .panelTitles{
+        font-size: 16px;
+    }
+}
