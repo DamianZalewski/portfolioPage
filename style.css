@@ -17,27 +17,20 @@ nav {
     z-index: 99;
 }
 
-nav header,
-nav ul {
-    display: inline-block;
-
-}
-
 nav header {
     display: inline-block;
     float:left;
-    margin-top: 26px;
-    margin-left: 15px;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
 }
 
 nav li {
     display: inline;
-    margin-right: 35px;
+    margin-right: 2.5rem;
 }
 
 .home {
     height: 100vh;
-
     background-image: url(img/backgroundHouses.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,54 +38,43 @@ nav li {
 }
 
 .home header {
-    font-size: 68px;
+    font-size: 4rem;
     text-align: center;
     padding-top: 40vh;
 }
 
 .aboutMe {
-    min-height: 600px;
     background-color: rgb(7, 77, 114);
-    font-size: 32px;
     text-align: center;
-
+    padding-top:4.5rem;
+    padding-bottom:4.5rem;
 }
 
 .aboutMe img {
-    width: 350px;
-    height: 350px;
-    margin-left: 100px;
-    margin-top: 125px;
+    width: 300px;
     border-radius: 50%;
     border: 5px solid #ffffff;
-
 }
 
-.description {
+.aboutMe .description {
     font-size: 26px;
     width: 60vw;
     display: inline-block;
-    margin: 0px;
-    padding: 0px;
-    vertical-align: top;
     box-sizing: border-box;
-    margin-top: 60px;
-    padding-left: 150px;
-}
-
-.description header {
-    font-size: 36px;
-    margin-bottom: 30px;
-}
-
-.description article {
+    padding-left: 3rem;
     text-align: justify;
-    margin-right: 50px;
+}
+
+.aboutMe .description header {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 .mySkills {
-    min-height: 450px;
     text-align: center;
+    padding-top:2rem;
+    padding-bottom:4.5rem;
 }
 
 .mySkills header {
@@ -121,6 +103,8 @@ nav li {
     height: 600px;
     background-color: rgb(7, 77, 114);
     text-align: center;
+        font-size: 32px;
+
 }
 
 .projects header {
@@ -180,6 +164,7 @@ nav li {
     transition: all 1.5s ease-in-out;
 }
 
+/*
 #project1 {
     left: 0px;
     background-image: url('img/project1.PNG');
@@ -220,7 +205,9 @@ nav li {
     width: 600px;
     height: 400px;
 }
+*/
 
+/*
 .projectDescription {
     box-sizing: border-box;
     padding-top: 15px;
@@ -230,6 +217,8 @@ nav li {
 
 
 }
+*/
+/*
 
 #projectDesc1 {
     left: 0px;
@@ -246,6 +235,7 @@ nav li {
 #projectDesc4 {
     left: 1800px;
 }
+*/
 
 .contact {
     min-height: 300px;
@@ -277,6 +267,7 @@ a {
     color: white;
 }
 
+/*
 @media only screen and (max-width: 1000px) {
     .home header {
         font-size: 36px;
@@ -312,4 +303,4 @@ a {
     nav ul {
         display:none;
     }
-}
+}*/
