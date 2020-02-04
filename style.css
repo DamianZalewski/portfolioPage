@@ -9,7 +9,8 @@ body {
 }
 
 nav {
-    background-color: rgba(7, 77, 114, 0.9);
+    background-color: rgba(7, 77, 114);
+    border-bottom: 1px solid rgba(124, 124, 124, 0.29);
     font-size: 1.5rem;
     text-align: right;
     position: fixed;
@@ -57,7 +58,8 @@ nav li {
 }
 
 .aboutMe .description {
-    font-size: 26px;
+    font-size: 1.5rem;
+    vertical-align: top;
     width: 60vw;
     display: inline-block;
     box-sizing: border-box;
@@ -67,191 +69,106 @@ nav li {
 
 .aboutMe .description header {
     font-size: 2.5rem;
-    margin-bottom: 1rem;
     text-align: center;
+    font-weight: bold;
 }
 
 .mySkills {
     text-align: center;
-    padding-top:2rem;
+    padding-top:4.5rem;
     padding-bottom:4.5rem;
 }
 
 .mySkills header {
-    font-size: 48px;
+    font-size: 2.5rem;
     font-weight: bold;
-    margin-top: 30px;
 }
 
 .mySkills img {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 
 .mySkills figure {
-
-    margin-top: 80px;
+    margin-top: 40px;
+    width:150px;
     display: inline-block;
+    text-align: center;
 }
 
 .mySkills figcaption {
-    font-size: 30px;
+    font-size: 1.5rem;
     margin-top: 25px;
 }
 
 .projects {
-    height: 600px;
     background-color: rgb(7, 77, 114);
     text-align: center;
-        font-size: 32px;
-
+    padding-top:4.5rem;
+    padding-bottom:4.5rem;
 }
 
 .projects header {
-    font-size: 48px;
+    font-size: 2.5rem;
     font-weight: bold;
-    padding-top: 30px;
 }
 
-.projects .wrapper {
-    max-width: 600px;
-    height: 400px;
-    overflow: hidden;
+.projects .projectsDescription{
+    display: inline-block;
+    font-size: 1.5rem;
+    vertical-align: top;
+    width:40%;
+    text-align: justify;
+}
+
+.projects .projectsDescription .projectsBtn{
+    width:300px;
     margin: auto;
-    margin-top: 30px;
-    position: relative;
-    background-color: rgb(0, 35, 54);
-    border-radius: 5px;
-
+    text-align: center;
+    background-color: #29282a;
+    padding: 1rem;
+    border-radius: 64px;
+    font-size: 2rem;
+    letter-spacing: 5px;
 }
 
-#back {
-
-    z-index: 2;
-    font-size: 98px;
-    position: absolute;
-    left: 30px;
-    top: 135px;
-    color: #f86e19;
-    cursor: pointer;
-    text-align: left;
-    width: 50px;
-    height: 120px;
-}
-
-#forward {
-    text-align: right;
-    z-index: 2;
-    font-size: 98px;
-    position: absolute;
-    width: 50px;
-    height: 120px;
-    right: 30px;
-    top: 135px;
-    color: #f86e19;
+.projects .projectsDescription .projectsBtn:hover{
+    background-color: #1d1c1f;
     cursor: pointer;
 }
 
-#back::selection,
-#forward::selection {
-    color: #f86e19;
-}
-
-.projects .wrapper div {
-    width: 600px;
-    height: 400px;
-    position: absolute;
-    transition: all 1.5s ease-in-out;
-}
-
-/*
-#project1 {
-    left: 0px;
-    background-image: url('img/project1.PNG');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 600px;
-    height: 400px;
+.projects .projectsImg{
+    display: inline-block;
+    width: 20%;
+    padding-left:2rem;
+    vertical-align: top;
 
 }
 
-#project2 {
-    left: 600px;
-    background-image: url('img/project2.PNG');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 600px;
-    height: 400px;
+.projects .projectsImg img{
+    width:100%;
 }
-
-#project3 {
-    left: 1200px;
-    background-image: url('img/project3.PNG');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 600px;
-    height: 400px;
-}
-
-#project4 {
-    left: 1800px;
-    background-image: url('img/project4.PNG');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 600px;
-    height: 400px;
-}
-*/
-
-/*
-.projectDescription {
-    box-sizing: border-box;
-    padding-top: 15px;
-    max-height: 50px;
-    bottom: 0px;
-    background-color: rgba(248, 110, 25, 0.9);
-
-
-}
-*/
-/*
-
-#projectDesc1 {
-    left: 0px;
-}
-
-#projectDesc2 {
-    left: 600px;
-}
-
-#projectDesc3 {
-    left: 1200px;
-}
-
-#projectDesc4 {
-    left: 1800px;
-}
-*/
 
 .contact {
-    min-height: 300px;
     text-align: center;
-    padding-bottom: 30px;
+    padding-top:4.5rem;
+    padding-bottom:4.5rem;
+    font-size: 1.5rem;
 }
 
 .contact header {
-    font-size: 48px;
+    font-size: 2.5rem;
     font-weight: bold;
-    padding-top: 30px;
 }
 
-.contact article {
-    padding-top: 30px;
-    font-size: 32px;
+.contact .contactWrapper{
+    width:500px;
+    margin: auto;
+    text-align: left;
+}
+
+.contact i{
+    margin-right: 1rem;
 }
 
 footer {
@@ -267,40 +184,4 @@ a {
     color: white;
 }
 
-/*
-@media only screen and (max-width: 1000px) {
-    .home header {
-        font-size: 36px;
-    }
-}
 
-@media only screen and (max-width: 850px) {
-    nav {
-        font-size:1rem;
-        vertical-align: top;
-    }
-    
-    nav header {
-        margin-top:1rem;
-    }
-    
-    .aboutMe img {
-        width:250px;
-        height:250px;
-        margin-left:auto;
-        margin-right:auto;
-        
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    nav header {
-        text-align: center;
-        width:100vw;
-        margin-bottom:14px;
-    }
-    
-    nav ul {
-        display:none;
-    }
-}*/
