@@ -1,11 +1,17 @@
 body {
+
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
     background-color: #1d1c1f;
-    overflow-x: hidden;
     color: #ffffff;
     display:none;
+}
+
+.pageWrapper{
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 
 nav {
@@ -31,6 +37,7 @@ nav li {
 }
 
 .home {
+    width: 100vw;
     height: 100vh;
     background-image: url(img/backgroundHouses.jpg);
     background-repeat: no-repeat;
@@ -45,6 +52,7 @@ nav li {
 }
 
 .aboutMe {
+    width: 100vw;
     background-color: rgb(7, 77, 114);
     text-align: center;
     padding-top:4.5rem;
@@ -60,7 +68,7 @@ nav li {
 .aboutMe .description {
     font-size: 1.5rem;
     vertical-align: top;
-    width: 60vw;
+    width: 60%;
     display: inline-block;
     box-sizing: border-box;
     padding-left: 3rem;
@@ -74,6 +82,7 @@ nav li {
 }
 
 .mySkills {
+    width: 100vw;
     text-align: center;
     padding-top:4.5rem;
     padding-bottom:4.5rem;
@@ -102,6 +111,7 @@ nav li {
 }
 
 .projects {
+    width: 100vw;
     background-color: rgb(7, 77, 114);
     text-align: center;
     padding-top:4.5rem;
@@ -122,7 +132,7 @@ nav li {
 }
 
 .projects .projectsDescription .projectsBtn{
-    width:300px;
+    width:250px;
     margin: auto;
     text-align: center;
     background-color: #29282a;
@@ -139,7 +149,8 @@ nav li {
 
 .projects .projectsImg{
     display: inline-block;
-    width: 20%;
+    width: 350px;
+    vertical-align: top;
     padding-left:2rem;
     vertical-align: top;
 
@@ -150,6 +161,7 @@ nav li {
 }
 
 .contact {
+    width: 100vw;
     text-align: center;
     padding-top:4.5rem;
     padding-bottom:4.5rem;
@@ -162,7 +174,7 @@ nav li {
 }
 
 .contact .contactWrapper{
-    width:500px;
+    max-width:500px;
     margin: auto;
     text-align: left;
 }
@@ -172,11 +184,14 @@ nav li {
 }
 
 footer {
+    width: 100vw;
     height: 20px;
     font-size: 22px;
     text-align: center;
     background-color: #0d0d0d;
-    padding: 10px 10px;
+    padding-bottom:  10px;
+    padding-top:  10px;
+
 }
 
 a {
@@ -184,4 +199,161 @@ a {
     color: white;
 }
 
+@media screen and (max-width: 950px) {
+    nav{
+        text-align: center;
+        padding: 0;
+    }
+    
+    nav li{
+        display: none;
+    }
+    
+    nav header{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width:100%;
+        font-size: 1.25rem;
+        margin-left: 0;
+    }
+    
+    .home header{
+        font-size: 2.5rem;
+    }
+    
+    .aboutMe img{
+        width: 250px;
+        display: block;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    
+    .aboutMe .description{
+        padding-left: 0;
+    }
+    
+    .mySkills figure{
+        width: 25%;
+    }
+    
+    .projects .projectsImg{
+        display: none;
+    }
+    
+    .projects .projectsDescription{
+        width: 60%;
+    }
+    
+    .projects .projectsDescription .projectsBtn{
+        font-size:1.25rem;
+        width:200px;
+    }
+    
+    .contact .contactWrapper{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav header{
+        font-size:1rem;
+    }
+    
+    .home header{
+        font-size: 2rem;
+    }
+    
+    .aboutMe{
+        padding-top: 2rem;
+        padding-bottom:2rem;
+    }
+    
+    .aboutMe img{
+        width: 200px;
+        display: block;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    
+    .aboutMe .description header{
+        font-size:2rem;
+    }
+    
+    .aboutMe .description{
+        width:100%;
+        padding-left:2rem;
+        padding-right:2rem;
+        font-size: 1.25em;
+    }
+    
+    .mySkills{
+        padding-top: 2rem;
+        padding-bottom:2rem;
+    }
+    
+    .mySkills header{
+        font-size: 2rem;
+    }
+    
+    .mySkills figure{
+        width: 45%;
+        margin: 0.5rem 0;
+    }
+    .mySkills figcaption {
+        margin-top:1rem;
+        font-size: 1.25rem;
+    }
+    
+    .projects{
+        padding-top: 2rem;
+        padding-bottom:2rem;
+    }
+    
+    .projects header{
+        font-size: 2rem;
+    }
+    
+    .projects .projectsDescription{
+        width:80%;
+        margin: 0;
+        font-size: 1.25em;
+    }
+    
+    .contact{
+        padding-top: 2rem;
+        padding-bottom:2rem;
+    }
+    
+    .contact header{
+        font-size: 2rem;
+    }
+    
+    .contact .contactWrapper{
+        font-size:1rem;
+    }
+    
+    .contact .contactWrapper i{
+        margin-right: 0.25rem;
+    }
+    
+    footer{
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+        padding-top:0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .mySkills figure{
+        width: 100%;
+    }
+    
+    .projects .projectsDescription .projectsBtn{
+        font-size: 1rem;
+        width:150px;
+    }
+}
 
