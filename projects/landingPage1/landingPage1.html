@@ -1,0 +1,251 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page #1</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="author" content="Damian Zalewski">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9YxpdU7Ppz6GiNEL51g8AcFlUNqSUf48&callback=initMap">
+    </script>
+</head>
+<body>
+    <header>
+
+        <div class="namesContainer">
+            <img class="logoName" src="img/logoName.png" alt="logo name">
+            <img class="logoSubname" src="img/logoSubname.png" alt="logo subname">
+        </div>
+<div class="logoContainer">
+        <img class="logo" src="img/logo.png" alt="logo">
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="leftItems">
+            <section class="visits">
+                <div class="statCircle">
+                    <div class="textCircle">
+                        75%
+
+                    </div>
+                    <div class="descCircle">New visits</div>
+                </div>
+                <div class="visitDesc">
+                    <i class="fa fa-user" aria-hidden="true"></i> 1,227 people
+                    <button class="report">View complete report</button>
+                </div>
+            </section>
+
+            <section class="mySkills">
+                <header>
+                    <i class="fa fa-user" aria-hidden="true"></i> My skills
+                </header>
+                <article>
+                    Photoshop
+                    <div class="photoshopBar"></div>
+                    Illustrator
+                    <div class="illustratorBar"></div>
+                    Wordpress
+                    <div class="wordpressBar"></div>
+                    Joomla
+                    <div class="joomlaBar"></div>
+                </article>
+
+                <button class="downloadButton">
+            <i class="fas fa-cloud-download-alt downloadIcon"></i>
+            Download my resume
+            </button>
+            </section>
+            <section class="myChat">
+            MY CHAT <i class="fas fa-cog cog cogIcon"></i>
+                <div class="chatOptions">
+                Facebook <div class="triangle"></div>
+                </div>
+                <div class="member">
+                <div class="avatar">
+                     <i class="fa fa-user profile" aria-hidden="true"></i>
+                    </div>
+                    <div class="name">Joseph Abadi</div>
+                    <div class="status"></div>
+                </div>
+                <div class="member">
+                <div class="avatar">
+                     <i class="fa fa-user profile" aria-hidden="true"></i>
+                    </div>
+                    <div class="name">John Mitho</div>
+                    <div class="status"></div>
+                </div>
+                <div class="member">
+                <div class="avatar">
+                     <i class="fa fa-user profile" aria-hidden="true"></i>
+                    </div>
+                   <div class="name"> Steve Jobs</div>
+                    <div class="busy"></div>
+                </div>
+                <div class="member">
+                <div class="avatar offline">
+                     <i class="fa fa-user profile" aria-hidden="true"></i>
+                    </div>
+                   <div class="name"> Prasad Prechu</div>
+                    <div class="notAvailable"></div>
+                </div>
+            </section>
+        </div>
+        <div class="middleItems">
+            <section class="myNetworks">
+                MY NETWORKS<br>
+                <figure>
+                    <i class="fab fa-twitter twitter"></i>
+                    <figcaption>Twitter</figcaption>
+                </figure>
+                <figure>
+                    <i class="fab fa-facebook-f facebook"></i>
+                    <figcaption>Facebook</figcaption>
+                </figure>
+                <figure>
+                    <i class="fab fa-dribbble dribbble"></i>
+                    <figcaption>Dribbble</figcaption>
+                </figure>
+
+            </section>
+            <section class="profileAlbum">
+                <div class="viewProfile">
+                    <i class="fa fa-user profile" aria-hidden="true"></i><br /> View profile
+                    <div class="orContainer">
+                        Or
+                    </div>
+                </div><div class="viewAlbum">
+                    <i class="fas fa-image album"></i><br /> View album
+                </div>
+            </section>
+            <section class="profiles">
+             <div class="profile">
+                    <img class="profilePic" src="img/adminAvatar.png" alt="mr. Roshan">
+
+                  <div class="profileNames">
+                        <span class="nameTag">HRITHIK ROSHAN</span><br>
+                        <span class="proffesion">Actor/Director</span>
+                 </div>
+             </div>
+                <div class="loveBox"><i class="fas fa-heart"></i>
+                    <br>1254</div><div class="friendsBox">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <br>32 friends
+                </div>
+                <div class="photosBox">
+                    <i class="fas fa-image"></i>
+                    <br>0 photos
+                </div><div class="settingsBox">
+                    <i class="fas fa-cog"></i>Settings
+                </div>
+            </section>
+            <section class="profileMail">
+            <div class="profile">
+                    <img class="profilePic" src="img/adminAvatar.png" alt="mr. Roshan">
+
+                  <div class="profileNames">
+                        <span class="nameTag">HRITHIK ROSHAN</span><br>
+                        <span class="proffesion">Actor/Director</span>
+                 </div>
+             </div>
+             <div class="aboutMe ">
+                 <i class="fa fa-user" aria-hidden="true"></i> <span class="panelTitles"> About me</span>
+             </div>
+                <div class="message  activeTitle">
+                  <i class="fas fa-comment-alt"></i>  <span class="panelTitles">Message</span>
+                </div>
+                <div class="addFriend ">
+                   <i class="fas fa-plus"></i> <span class="panelTitles">Add as a friend</span>
+                </div>
+                <div class="message-panel activePanel">
+                <form>
+                    <input type="text" placeholder="Subject">
+                    <textarea placeholder="Message"></textarea><br>
+                    <div class="submitForm">
+                    <label>
+                    <input  type="checkbox"> Reply to my email
+                    </label>
+                    <input type="submit" value="Send">
+                    </div>
+                </form>
+                </div>
+                <div class="aboutMe-panel">
+                    Age : 22 yo<br>
+                    Location : New York City <br>
+                    Martial status : bachelord :/
+                    
+                </div>
+                <div class="addFriend-panel">
+                    <form>
+                    
+                    <input type="text" placeholder="Name">
+                   
+                    <input type="text" placeholder="Surname">
+                    
+                    <input type="email" placeholder="E-mail">
+                    <input type="submit" value="Add">
+                    
+                    </form>
+                </div>
+            </section>
+        </div>
+        <div class="rightItems">
+            <section class="adminLogin">
+                <div class="cog"><i class="fas fa-cog cogIcon"></i></div>
+                <figure>
+                    <img  src="img/adminAvatar.png" alt="admin avatar picture">
+                    <figcaption>Welcome back, admin</figcaption>
+                </figure>
+                <form>
+                    <input type="password" placeholder="Security Code">
+                    <button><i class="fas fa-arrow-right arrow"></i></button>
+                </form>
+
+            </section>
+            <section class="register">
+                <i class="fas fa-edit"></i> REGISTER NOW
+                <form>
+                    <input class="informations" type="text" placeholder="Your name">
+                    <input class="informations" type="email" placeholder="Email address">
+                    <input class="informations" type="text" placeholder="Phone">
+                    <div class="genderMale">Male</div>
+                    <label class="conditions">
+               <input  type="checkbox"> Accept all conditions
+               </label>
+                    <input class="informations sendButton" type="submit" value="Register me !">
+                </form>
+            </section>
+            <section class="map">
+                <div id="map"></div>
+                <header>
+                    OUR OFFICE
+                </header>
+                <article>
+                    State, District
+                </article>
+            </section>
+        </div>
+    </div>
+   
+</body>
+ 
+</html>

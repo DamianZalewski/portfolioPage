@@ -1,0 +1,28 @@
+body {
+    background-color:#151517;    
+}
+
+.title {
+    color:#951111;
+}
+
+.back-button {
+    color:#951111;
+}
+
+.card {
+    background-color:#951111;
+}
+
+.menu-row {
+    background-color:#951111;
+}
+
+button {
+    background-color:#951111;
+}
+
+button:hover {
+    background-color: #5a0808;
+}
+

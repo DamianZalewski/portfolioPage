@@ -1,0 +1,202 @@
+/*html tags*/
+body {
+	margin: 0;
+	padding: 0;
+	color: #ededed;
+	overflow-x: hidden;
+}
+
+main {
+	position: absolute;
+	width: 100vw;
+	min-height: 100vh;
+	left: 0;
+	top: 0;
+	background: #2c2c2c;
+	overflow-x: hidden;
+}
+
+aside {
+	position: absolute;
+	top: 15vh;
+	width: 30vw;
+	left: -30vw;
+}
+
+header {
+	font-family: 'Charm', cursive;
+	background: #b10058;
+	text-align: center;
+	padding: 10px;
+}
+
+input {
+	width: 60%;
+}
+
+canvas {
+	margin-top: 8px;
+	width: 100%;
+	height: 550px;
+}
+
+
+/*-----------*/
+
+/*Overflow styles*/
+
+overflowHidden {
+	overflow-x: hidden;
+}
+
+#overlay {
+	font-family: 'Charm', cursive;
+	position: absolute;
+	width: 100vw;
+	min-height: 100vh;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	text-align: center;
+	padding-top: 40vh;
+	background: rgba(255, 93, 177, 1);
+	background: -moz-linear-gradient(left, rgba(255, 93, 177, 1) 0%, rgba(239, 1, 124, 1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 93, 177, 1)), color-stop(100%, rgba(239, 1, 124, 1)));
+	background: -webkit-linear-gradient(left, rgba(255, 93, 177, 1) 0%, rgba(239, 1, 124, 1) 100%);
+	background: -o-linear-gradient(left, rgba(255, 93, 177, 1) 0%, rgba(239, 1, 124, 1) 100%);
+	background: -ms-linear-gradient(left, rgba(255, 93, 177, 1) 0%, rgba(239, 1, 124, 1) 100%);
+	background: linear-gradient(to right, rgba(255, 93, 177, 1) 0%, rgba(239, 1, 124, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#ef017c', GradientType=1);
+	overflow-x: hidden;
+}
+
+.bottomArrow {
+	margin-left: auto;
+	margin-right: auto;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fdfdfd;
+	animation: arrowMovement 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes arrowMovement {
+	from {
+		transform: translateY(50%);
+	}
+	to {
+		transform: translateY(-50%);
+	}
+}
+
+/*-------------*/
+
+/*containers*/
+
+#menuContainer {
+	background-color: #e80a79;
+	border-right: 1px solid #b10058;
+	border-bottom: 1px solid #b10058;
+	margin-bottom: 2rem;
+}
+
+#canvasContainer {
+	position: absolute;
+	background-color: #e80a79;
+	text-align: right;
+	padding: 0;
+	top: 15vh;
+	right: -60vw;
+	width: 60vw;
+	min-height: 600px;
+	border-left: 1px solid #b10058;
+	border-bottom: 1px solid #b10058;
+}
+
+#informationContainer {
+	background-color: #e80a79;
+	border-right: 1px solid #b10058;
+	border-bottom: 1px solid #b10058;
+	margin-bottom: 2rem;
+}
+
+
+/*-------------*/
+
+
+/*classes*/
+
+.buttonClass {
+	background-color: #b10058;
+	width: 90%;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 5px;
+}
+
+.buttonClass:hover {
+	cursor: pointer;
+	background-color: #930049;
+}
+
+.overlayUp {
+	transform: translateY(-100%);
+	transition: transform 1s ease-in-out;
+}
+
+.leftMenuAnimation {
+	transform: translateX(100%);
+	transition: transform 1.5s ease-in-out;
+}
+
+.canvasAnimation {
+	transform: translateX(-100%);
+	transition: transform 1.5s ease-in-out;
+}
+
+/*---------*/
+
+/*media queries*/
+
+@media screen and (max-device-width: 600px) {
+	body {
+		font-size: 2rem;
+	}
+	main {
+		position: static;
+	}
+	#leftMenu {
+		position: static;
+		width: 95vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#canvasContainer {
+		position: static;
+		width: 95vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.leftMenuAnimation {
+		transform: translateX(0%);
+		transition: transform 0s ease-in-out;
+	}
+	.canvasAnimation {
+		transform: translateX(0%);
+		transition: transform 0s ease-in-out;
+	}
+	#canvasContainer {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+	input {
+		padding: 0.5rem;
+		font-size: 1.5rem;
+	}
+}
+
+/*---------*/

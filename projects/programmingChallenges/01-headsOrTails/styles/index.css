@@ -1,0 +1,140 @@
+body {
+    background-color:#151517;  
+    font-size:1.2rem;
+}
+
+.title {
+    font-size: 36px;
+    text-align: center;
+    margin-top:3rem;
+    color:#1414a8;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.game_card_container {
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.game_card {
+    width:400px;
+    height:400px;
+    display: inline-block;
+    background-color:green;
+    margin:30px;
+    box-sizing: border-box;
+    border:4px solid black;
+}
+
+.game_card:hover {
+    border-color:#0a0aa0;
+    cursor:pointer;
+}
+
+.back-container {
+    position:absolute;
+    bottom: 35px;
+    left: 35px;
+    text-decoration: none;
+}
+
+.back-button {
+    font-weight: bold;
+    font-size:24px;    
+    text-decoration: none;
+    color:#951111;
+}
+
+.wrapper {
+    width:80%;
+    height:300px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    box-sizing: border-box;
+}
+
+.menu {
+    width:50%;
+    height:100%;
+    display:inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    position:relative;
+    padding-right:2.5%;
+}   
+
+.card {
+    width:30%;
+    height:100%;
+    display:inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: center;
+}
+
+.arrows {
+    width:20%;
+    height:100%;
+    box-sizing: border-box;
+    padding-right:2.5%;
+    display:inline-block;
+    position:relative;
+}
+
+.arrow-button {
+    width:100%;
+    height:45%;
+}
+
+.arrow-button:last-of-type {
+    position: absolute;
+    width:87.5%;
+    bottom:0;
+    right:12.5%;
+}
+
+#actualCard {
+    margin-top:5%;
+    height:90%;
+    border-radius: 15px;
+}
+
+.new-game-button {
+    position: absolute;
+    width:95%;
+    height:50px;
+    left:0;
+    bottom:0;
+}
+
+.menu-item {
+    color:white;
+    display:inline-block;
+    width:50%;
+}
+
+.menu-row {
+    width:100%;
+    margin-bottom:1rem;
+    box-sizing: border-box;
+    padding:15px 15px;
+}
+
+button {
+    color:white;
+    border:none;
+    box-sizing: border-box;
+    font-size:1.5rem;
+}
+
+button:hover {
+    cursor: pointer;    
+}
+
+input {
+    width:40%;
+    display:inline-block;
+}

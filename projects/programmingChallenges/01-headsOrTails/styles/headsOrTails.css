@@ -1,0 +1,29 @@
+.title {
+    color:#0a0aa0;
+}
+
+.back-button {
+    color:#0a0aa0;
+}
+
+.card {
+    background-color:#0a0aa0;
+}
+
+#actualCard {
+    margin-top: 25%;
+    height:initial;
+    max-width: 60%;
+}
+
+.menu-row {
+    background-color:#0a0aa0;
+}
+
+button {
+    background-color:#0a0aa0;
+}
+
+button:hover {
+    background-color: #00007e;
+}

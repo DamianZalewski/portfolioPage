@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>[95] Sierpinski triangle</title>
+    <meta name="description" content="Sierpinski triangle">
+    <link href="https://fonts.googleapis.com/css?family=Charm" rel="stylesheet">
+    <link rel="stylesheet" href="styles/tachyons.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+</head>
+<body onload="init()">
+    <div class="overflowHidden">
+        <div id="overlay" onclick="openPage()">
+            <h1>Sierpinski triangle</h1>
+            <div class="bottomArrow"></div>
+        </div>
+        <main>
+            <header>Sierpinski Triangle</header>
+            <section id="canvasContainer">
+                <header>Canvas</header>
+                <canvas id="canvas">Your browser does not support canvas element.</canvas>
+            </section>
+            <aside id="leftMenu">
+                <section id="menuContainer">
+                    <header>Menu</header>
+                    <article>
+                        <div class="center tc pa1">
+                            <div class="w40 tr">Dots quantity</div>
+                            <div class="w40 tl"><input id="quantity" type="number" min="1000" value="1000" /></div>
+                        </div>
+                        <div class="center tc pa1">
+                            <div class="w40 tr">Dots counter</div>
+                            <div class="w40 tl"><input id="counter" type="text" value="0" disabled/></div>
+                        </div>
+                        <div class="buttonClass" id="startButton" onclick="start()">Start</div>
+                        <div class="buttonClass" onclick="reset()">Reset</div>
+                    </article>
+                </section>
+                <section id="informationContainer">
+                    <header>Informations</header>
+                    <article class="pa1">
+                        <p class="tj">
+                            The Sierpinski triangle (also with the original orthography Sierpiński), also called the Sierpinski gasket or the Sierpinski sieve, is a fractal and attractive fixed set with the overall shape of an equilateral triangle, subdivided recursively into smaller equilateral triangles.
+                        </p>
+                        <figure class="tc">
+                            <img src="assets/sierpinski.jpg" />
+                            <figcaption>Wacław Sierpiński</figcaption>
+                        </figure>
+                    </article>
+                </section>
+            </aside>
+        </main>
+    </div>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>

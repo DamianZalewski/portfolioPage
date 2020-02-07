@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>[01] Higher or lower / heads and tails</title>
+    <meta name="description" content="higher or lower game">
+    <link rel="stylesheet" href="../styles/index.css"/>
+    <link rel="stylesheet" href="../styles/higherOrLower.css"/>
+</head>
+<body>
+    <div class="title">HIGHER OR LOWER</div>
+    <div class="wrapper">
+        <div class="menu">
+            <div class="menu-row">
+                <div class="menu-item">Score</div>
+                <input type="text" readonly="true" id="gameScore" value="0">
+            </div>
+            <div class="menu-row">
+                <div class="menu-item">Cards remain</div>
+                <input type="text" readonly="true" id="cardsRemain" value="0" />
+            </div>
+            <div class="menu-row">
+                <div class="menu-item">Game status</div>
+                <input type="text" readonly="true" id="gameStatus" value="Not started yet!" />
+            </div>
+            <button class="new-game-button" onClick="startNewGame()">New game</button>
+        </div><div class="arrows">
+            <button class="arrow-button" onClick="handleArrowClick('up');">Higher!</button>
+            <button class="arrow-button" onClick="handleArrowClick('down');">Lower!</button>
+        </div><div class="card">
+            <img id="actualCard" src="../assets/higherOrLower/purple_back.jpg" />
+        </div>
+    </div>
+    <a href="../index.html" class="back-container">
+        <div class="back-button container">
+            BACK
+        </div>
+    </a>
+    <script src="../scripts/higherOrLower.js"></script>
+</body>
+</html>

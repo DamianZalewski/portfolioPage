@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>[22] BMI Calculator</title>
+    <meta name="description" content="BMI Calculator">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css" />
+</head>
+<body>
+    <div id="header">
+        BMI CALCULATOR
+    </div>
+    <div id="formWrapper">
+        <div id="formTitle">Check your BMI!</div>
+        <hr />
+        <div>
+            Gender
+            <label class="radioInput">
+                 <input value="male" type="radio" name="genderInput" checked/>  Male
+              </label>
+            <label class="radioInput">
+                 <input value="female" type="radio" name="genderInput"/>  Female
+              </label>
+        </div>
+        <div>
+            <div class="rangeLabel">Height</div>
+            <input type="range" name="heightInput" min="100" max="250" value="175" onchange="changeHeightValue()" />
+            <span id="heightValue"></span>
+        </div>
+        <div>
+            <div class="rangeLabel">Weight</div>
+            <input type="range" name="weightInput" min="30" max="250" value="135" onchange="changeWeightValue()" />
+            <span id="weightValue"></span>
+        </div>
+        <div id="checkButton" onclick="calculateBMI()">Check BMI</div>
+    </div>
+    <div id="result">
+        <div id="infoBox">
+            BMI <input type="text" id="bmiValue" disabled/> STATUS <input type="text" id="bmiStatus" disabled/>
+        </div>
+        <div id="bodyImage"></div>
+    </div>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

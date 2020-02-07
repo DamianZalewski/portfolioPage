@@ -1,0 +1,96 @@
+body {
+    font-family: 'Lato', sans-serif;
+	background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size:cover;
+    height:100vh;
+    margin:0 0;
+    padding:0 0;
+    color:#fff;
+    font-size:1.5rem;
+}
+
+#header {
+    background-color:#059d9d;
+    font-size:2rem;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    height:4rem;
+    box-sizing: border-box;
+    padding-top:0.5rem;
+    text-align: center;
+    border-bottom:5px solid #005555;
+}
+
+#formTitle {
+    text-align: center;
+}
+
+.radioInput {
+    padding-left:2rem;
+    display:block;
+}
+
+.rangeLabel {
+    display:inline-block;
+    width:20%;
+}
+
+#formWrapper {
+    background-color:#059d9d;
+    display:inline-block;
+    width:35vw;
+    margin-left:10vw;
+    margin-right:5vw;
+    margin-top:5vh;
+    vertical-align: top;
+    -webkit-box-shadow: 10px 10px 0px -3px #005555;
+    -moz-box-shadow: 10px 10px 0px -3px #005555;
+    box-shadow: 10px 10px 0px -3px #005555;
+    padding:15px 15px;
+    box-sizing: border-box;
+}
+#result {
+    background-color:#059d9d;
+    display:inline-block;
+    margin-left:5vw;
+    margin-top:5vh;
+    width:35vw;
+    min-height:30vh;
+    vertical-align: top;
+    -webkit-box-shadow: 10px 10px 0px -3px #005555;
+    -moz-box-shadow: 10px 10px 0px -3px #005555;
+    box-shadow: 10px 10px 0px -3px #005555;
+    padding:15px 15px;
+    box-sizing: border-box;
+}
+
+#checkButton {
+    background-color:#005555;
+    color:#fff;
+    width:80%;
+    padding:5px;
+    margin:auto;
+    text-align: center;
+    margin-top:1rem;
+    font-size:1rem;
+}
+
+#checkButton:hover {
+    cursor: pointer;
+    background-color:#003636;
+}
+
+#bodyImage, #infoBox {
+    display:inline-block;
+    width:49%;
+    padding:0px;
+    margin:0px;
+    height:100%;
+    vertical-align: top;
+}
+
+#bodyImage {
+    text-align: right;
+}

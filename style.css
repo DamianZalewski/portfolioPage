@@ -198,17 +198,35 @@ a {
     color: white;
 }
 
+.buttonLink{
+    color:#b3ffff;
+    border: 1px solid #b3ffff;
+    box-sizing: border-box;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.buttonLink:hover{
+    background-color: #b3ffff;
+    color: rgba(7, 77, 114);
+}
+
 .projectsExamples{
     width:100vw;
     box-sizing: border-box;
     padding-top:5rem;
+}
+
+.leftWrapper{
     text-align: left;
+    width: 95%;
+    margin: auto;
 }
 
 .projectCard{
     display: inline-block;
     width:400px; 
-    height: 560px;
+    height: 500px;
     background-color: rgba(7, 77, 114);
     margin: 2rem;
     text-align: left;
@@ -248,7 +266,8 @@ a {
     background-color:rgba(58, 60, 65, 0.94);
     opacity: 0;
     transition: .2s;
-    padding-top: 6rem;
+    padding-top: 4.5rem;
+    border: 5px solid #19181a;
     box-sizing: border-box;
 }
 
