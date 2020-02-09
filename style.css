@@ -211,6 +211,10 @@ a {
     color: rgba(7, 77, 114);
 }
 
+.textLink:hover{
+    color: #b3ffff;
+}
+
 .projectsExamples{
     box-sizing: border-box;
     padding-top:5rem;
@@ -267,7 +271,6 @@ a {
 
 .projectCard:hover .overlay{
     opacity: 1;
-/*    cursor: pointer;*/
 }
 
 .projectCard .overlay i{
@@ -452,7 +455,20 @@ a {
         padding-top:0.5rem;
         padding-bottom: 0.5rem;
     }
+}
+
+@media screen and (max-width: 500px) {
+    .projectsExamples{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
     
+    .projectCard{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-bottom: 2rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
