@@ -206,6 +206,10 @@ a {
     border-radius: 10px;
 }
 
+.iconLink{
+    display: none;
+}
+
 .buttonLink:hover{
     background-color: #b3ffff;
     color: rgba(7, 77, 114);
@@ -317,8 +321,18 @@ a {
         padding: 0;
     }
     
-    nav li{
+    nav .buttonLink{
         display: none;
+    }
+    
+    nav .iconLink{
+        display: block;
+        position: fixed;
+        color:#b3ffff;
+        top:12px;
+        right:10px;
+        margin:0;
+        color:
     }
     
     nav header{
@@ -369,6 +383,11 @@ a {
 @media screen and (max-width: 600px) {
     nav header{
         font-size:1rem;
+    }
+    
+     nav .iconLink{
+        top:10px;
+        font-size: 1.5rem;
     }
     
     .home header{
