@@ -13,6 +13,26 @@ body {
     overflow-x: hidden;
 }
 
+.loadingScreen{
+    width:100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 100;
+    background-color: #1d1c1f;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 30vh;
+    font-size: 64px;
+    color:#54e3e3;
+}
+
+.spinner{
+    animation-name: loadingAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
 nav {
     background-color: rgba(7, 77, 114);
     border-bottom: 1px solid rgba(124, 124, 124, 0.29);
@@ -498,6 +518,15 @@ a {
     .projects .projectsDescription .projectsBtn{
         font-size: 1rem;
         width:150px;
+    }
+}
+
+@keyframes loadingAnimation{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
     }
 }
 
