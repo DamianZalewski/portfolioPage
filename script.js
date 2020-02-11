@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(window).on("load", function() {
     $('.loadingScreen').css("display", "none");
-    $('body').fadeIn(1200);
+    $('.pageWrapper').fadeIn(1200);
 });
